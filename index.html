@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSP 23</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- Rubrik "Start" -->
+    <h1>Rock Paper Scissors 23</h1>
+    <!-- Rubrik "End" -->
+
+    <!-- Play button "Start"-->
+    <button id="playBtn">
+        <img src="./Picturs/play-button.png" alt="" id="playPic">
+    </button>
+    <!-- Play button "End"-->
+
+    <form>
+        <input type="text" id="inputText" placeholder="Enter your name">
+        <button id="enterBtn">
+            <img src="./Picturs/enter.png" alt="Enter" id="enterPic">
+        </button>
+    </form>
+    
+    <!-- Box som innehåller knapparna "Start" -->
+    <div class="picBtnBox">
+        <button class="picButton">
+            <img class="rpsPic" src="./Picturs/rocks.png" alt="rock" id="Rock">
+        </button>
+        <button class="picButton">
+            <img class="rpsPic" src="./Picturs/scissors.png" alt="scissors" id="Scissors">
+        </button>
+        <button class="picButton">
+            <img class="rpsPic" src="./Picturs/paper.png" alt="paper" id="Paper">
+        </button>
+    </div>
+    <!-- Box som innehåller knapparna "End" -->
+
+
+    <p id="playerName"></p> <!--Visar Player name-->
+
+    <!-- Informations box som innehåller båda spelarens och AI input och poäng "Start" -->
+    <div id="infoBox">
+        <div id="playerInfo">
+            <p id="playerSelected"></p> <!--Visar Player selected-->
+            <p id="playerPoint"></p><!--Visar Player point-->
+        </div>
+        <p id="tieText"></p> <!--Visar när det blir lika-->
+        <div id="aiInfo">
+            <p id="aiSelected"></p> <!--Visar AI random number-->
+            <p id="aiPoint"></p><!--Visar AI point-->
+        </div>
+    </div>
+    <!-- Informations box som innehåller båda spelarens och AI input och poäng "End" -->
+
+    <!-- Text som visar när man vinner, förlorar och när det blir lika "Start"-->
+    <p id="theWinner"></p>
+    <p id="theLoser"></p>
+    <!-- Text som visar när man vinner, förlorar och när det blir lika "End"-->
+
+    <!-- Play again knapp "Start"-->
+    <button id="playAgainBtn">
+        <img src="./Picturs/refresh.png" alt="Cicle arrow" id="playAgainPic" >
+    </button>
+     <!-- Play again knapp "End"-->
+    
+    <script src="./JS/script.js" defer></script>
+</body>
+</html>

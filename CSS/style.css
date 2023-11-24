@@ -1,0 +1,148 @@
+body{
+    /* margin: auto; */
+    text-align: center;
+    background-color: lightgray;
+    background: url(../Picturs/field-1728099_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+
+/* Style för div element som innehåller spelare och ai info "Start" */
+#infoBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Style för div element som innehåller spelare och ai info "End" */
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 21px;
+}
+
+/* Style för alla button "Start */
+.picBtnBox{
+    margin-top: 3rem;
+}
+
+.picButton{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+#playBtn{
+    background: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#enterBtn{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#playAgainBtn{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+/* Style för alla button "End */
+
+/* Style för alla bilder "Start" */
+.rpsPic{
+    background: none;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#playPic{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    width: 100px;
+}
+
+#enterPic{
+    width: 45px;
+}
+
+#playAgainPic{
+    margin: 20px 0;
+    padding: 0;
+    background: none;
+    width: 100px;
+}
+/* Style för alla bilder "End" */
+
+/* Style för färger "Start" */
+.winColor{
+    color: green;
+}
+
+.loseColor{
+    color: red;
+}
+
+.tieColor{
+    color: blue;
+}
+
+/* Style för färger "End" */
+
+/* Style för alla element som visar text innehåll "Start" */
+p{
+    font-size: 2rem;
+}
+
+#tieText{
+    font-size: 3rem;
+}
+
+#theWinner{
+    font-size: 5rem;
+    margin: 0;
+}
+
+#theLoser{
+    font-size: 5rem;
+    margin: 0;
+}
+
+#playerName{
+    margin-top: 0;
+}
+/* Style för alla element som visar text innehåll "End" */
+
+/* Style för visar och gömma element och display-style(Flex) "Start"  */
+.displayShow{
+    display: inline-block;
+}
+
+.displayHide{
+    display: none;
+}
+
+.displayFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.displayBlock{
+    display: block;
+}
+/* Style för visar och gömma element och display-style(Flex) "End"  */
